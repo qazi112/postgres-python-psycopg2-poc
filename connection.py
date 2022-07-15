@@ -4,11 +4,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-print(os.getenv("HOST"),
-      os.getenv("USER"),
-      os.getenv("DATABASE"),
-      os.getenv("PASSWORD"))
-
 
 def connect():
     try:
